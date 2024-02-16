@@ -1,4 +1,5 @@
-package Inheritance;
+package Inheritance.Constructor2;
+
 
 public class Constructor2 {
     public static void main(String[] args) {

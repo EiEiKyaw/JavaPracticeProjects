@@ -1,6 +1,6 @@
-package Inheritance;
+package Inheritance.Constructor;
 
-public class Constructor {
+public class Constructor1 {
 
     
     public static void main(String[] args) {
