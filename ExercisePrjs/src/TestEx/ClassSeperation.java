@@ -1,5 +1,6 @@
 package TestEx;
 
+import java.util.Scanner;
 
 public class ClassSeperation {
     public static void main(String[] args) {
