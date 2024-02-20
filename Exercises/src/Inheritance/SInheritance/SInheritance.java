@@ -5,7 +5,7 @@ class SInheritance {
         Person p1 = new Person();
 
         p1.greeting();
-        p1.p1();
+        p1.personGreeting();
     }
     public void greeting () {
         System.out.println("Hello");
@@ -13,7 +13,7 @@ class SInheritance {
 }
 
 class Person extends SInheritance {
-    public void p1() {
+    public void personGreeting() {
         System.out.println("My name is John");
     }
 }

@@ -2,13 +2,13 @@ package Inheritance.Constructor3;
 
  public class Vike extends Vehicle {
      int bCount;
-     Vike(String name, int bCount) {
-         super(name);
+     Vike(String bName, int bCount) {
+         super(bName);
          this.bCount = bCount;
      }
 
      void noOfBike() {
-         super.vehicleType();
-         System.out.println(bCount +" "+ name+"s"+ "can be found in garage");
+         super.vehicleStore();
+         System.out.println(bCount +" "+ vName+"s"+ "can be found in garage");
      }
  }

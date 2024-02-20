@@ -8,13 +8,13 @@ public class Person {
         this.age = age;
     }
 
-    void personDetail (){
+    void personInfo (){
         
     }
 
     public static void main(String[] args) {
         Student s1 =new Student("Jack", 16, 101, 10);
 
-        s1.personDetail();
+        s1.personInfo();
     }
 }

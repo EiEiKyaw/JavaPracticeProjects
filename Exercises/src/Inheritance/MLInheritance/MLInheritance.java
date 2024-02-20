@@ -5,8 +5,8 @@ public class MLInheritance {
         person2 greet = new person2();
 
         greet.greet();
-        greet.p1();
-        greet.p2();
+        greet.personGreeting1();
+        greet.personGreeting2();
     }
 }
 
@@ -17,13 +17,13 @@ class greeting {
 }
 
 class person1 extends greeting {
-    public void p1 () {
+    public void personGreeting1 () {
         System.out.println("This is Jack");
     }
 }
 
 class person2 extends person1 {
-    public void p2 () {
+    public void personGreeting2 () {
         System.out.println("I'm John");
     }
 }

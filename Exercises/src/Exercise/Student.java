@@ -2,16 +2,16 @@ package Exercise;
 
 
 public class Student extends Person {
-    protected int StudentID;
+    protected int studentID;
     protected int Grade;
-    Student(String name, int age, int StudentID, int Grade){
+    Student(String name, int age, int studentID, int Grade){
         super(name, age);
-        this.StudentID = StudentID;
+        this.studentID = studentID;
         this.Grade = Grade;
     }
 
-    void personDetail() {
+    void personInfo() {
         // super.personDetail();
-        System.out.println("Student ID: "+StudentID +"\n Name: " + name + "\n Age: " + age + "\n Grade: " + Grade);
+        System.out.println("Student ID: "+studentID +"\n Name: " + name + "\n Age: " + age + "\n Grade: " + Grade);
     }
 }

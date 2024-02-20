@@ -11,7 +11,7 @@ public class Vike extends Car {
     }
 
     void noOfBike() {
-        super.vehicalType();{
+        super.vehicalStore();{
             System.out.println(bName + " is in garage");
         }
         System.out.println(bCount +" "+ bName+"s "+ "can be found in garage");

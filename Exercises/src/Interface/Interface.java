@@ -6,7 +6,7 @@ interface Student {
     public void age();
 }
 
-class Person implements Student{
+class Person1 implements Student{
     public void greet() {
         System.out.println("Hello Everyone!!!!!");
     }
@@ -31,7 +31,7 @@ class Person2 implements Student {
 }
 public class Interface {
     public static void main(String[] args) {
-        Person p1 = new Person();
+        Person1 p1 = new Person1();
         Person2 p2 = new Person2();
 
         p1.greet();

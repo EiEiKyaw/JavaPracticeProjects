@@ -1,12 +1,12 @@
 package Inheritance.Constructor2;
 
 public class Vehicle {
-    String name;
-    Vehicle(String name){
-        this.name = name;
+    String vName;
+    Vehicle(String vName){
+        this.vName = vName;
     }
 
-    void vehicalType(){
+    void vehicalStore(){
         
     }
 }

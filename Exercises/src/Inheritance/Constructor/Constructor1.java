@@ -5,7 +5,7 @@ public class Constructor1 {
     
     public static void main(String[] args) {
         Wheel c1 = new Wheel("wheel");
-        Car1 c2 = new Car1("car");
+        Car c2 = new Car("car");
         System.out.println(c2);
         System.out.println(c1);
 
@@ -15,40 +15,40 @@ public class Constructor1 {
     }
 }
 
-class Vehical{
-    String name;
+class Vehicle{
+    String vName;
 
-    Vehical(String name) {
-        this.name = name;
+    Vehicle(String vName) {
+        this.vName = vName;
     }
 
     void store() {
-        System.out.println("Vehical is in garage");
+        System.out.println("Vehicle is in garage");
     }
 }
 
-class Car1 extends Vehical{
-    String cname;
-    Car1(String cname) {
-        super(cname);
+class Car extends Vehicle{
+    String cName;
+    Car(String cName) {
+        super(cName);
     }
     void go(){
-        System.out.println("Moving Forward " + name);
+        System.out.println("Moving Forward " + vName);
     }
 
     public String toString() {
-        return "This is " + name;
+        return "This is " + vName;
     }
 }
 
-class Wheel extends Car1 {
+class Wheel extends Car {
 
     Wheel(String cwheel) {
         super(cwheel);
     }
     
     public String toString(){
-        return "Car has four " + name;
+        return "Car has four " + vName;
     }
 
     void brake() {
