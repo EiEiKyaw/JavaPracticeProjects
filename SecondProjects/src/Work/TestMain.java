@@ -10,8 +10,8 @@ public class TestMain {
 		Dog d1 = new Dog("Lan Anh");
 		Dog d2 = new Dog("Noki");
 		System.out.println(d1);
-		System.out.println(d2);
 		d1.greets();
+		System.out.println(d2);
 		d1.greets(d2);
 	}
 

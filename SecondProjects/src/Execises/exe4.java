@@ -1,18 +1,18 @@
 package Execises;
 
 interface Walkable{
-	public void walk();
+	public void Walk();
 }
 
 interface Swimmable{
-	public void swim();
+	public void Swim();
 }
 
 class Duck implements Walkable, Swimmable{
-	public void walk() {
+	public void Walk() {
 		System.out.println("Duck is walking.");
 	}
-	public void swim() {
+	public void Swim() {
 		System.out.println("Duck is swimming."); 
 	}
 }
@@ -21,9 +21,9 @@ class Duck implements Walkable, Swimmable{
 public class exe4 {
 
 	public static void main(String[] args) {
-		Duck obj = new Duck();
-		obj.walk();
-		obj.swim();
+		Duck Obj = new Duck();
+		Obj.Walk();
+		Obj.Swim();
 
 	}
 

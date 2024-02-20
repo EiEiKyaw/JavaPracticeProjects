@@ -3,7 +3,7 @@ package Execises;
 class Parent{
 	protected int num = 10;
 	
-	protected void display() {
+	protected void Display() {
 		System.out.println("Hello World.");
 	}
 }
@@ -11,7 +11,7 @@ class Parent{
 class Child extends Parent{
 	void ChildMethod(){
 		System.out.println("Number: " + num);
-		display();
+		Display();
 	}
 }
 

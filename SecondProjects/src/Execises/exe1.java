@@ -9,7 +9,7 @@ class Person{
 		this.age = age;
 	}
 	
-	public void display() {
+	public void Display() {
 		System.out.println("Name: " + name);
 		System.out.println("Age: " + age);
 	}
