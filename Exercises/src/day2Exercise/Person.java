@@ -1,4 +1,4 @@
-package Exercise;
+package day2Exercise;
 
 public class Person {
     protected String name;

@@ -1,4 +1,4 @@
-package Exercise;
+package day2Exercise;
 
 
 public class Student extends Person {
