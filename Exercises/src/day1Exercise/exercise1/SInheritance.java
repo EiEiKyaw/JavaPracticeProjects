@@ -1,4 +1,4 @@
-package Inheritance.SInheritance;
+package day1Exercise.exercise1;
 
 class SInheritance {
     public static void main(String[] args) {

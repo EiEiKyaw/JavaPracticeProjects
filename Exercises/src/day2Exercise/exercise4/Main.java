@@ -1,4 +1,4 @@
-package Overloading;
+package day2Exercise.exercise4;
 
 class Person {
     void greet(){
@@ -16,7 +16,7 @@ class Student extends Person {
     }
 }
 
-public class Overloading {
+public class Main {
     public static void main(String[] args) {
         Student p1 = new Student();
 

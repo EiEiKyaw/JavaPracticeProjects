@@ -1,6 +1,6 @@
 package day3Exercise.exercise_8_9_10;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class ListExe {
 	public static void main(String[] args) {

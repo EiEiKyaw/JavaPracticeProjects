@@ -1,4 +1,4 @@
-package Interface;
+package day2Exercise.exercise5;
 
 interface Student {
     public void greet();
@@ -29,7 +29,7 @@ class Person2 implements Student {
         System.out.println("I'm 15 years old");
     }
 }
-public class Interface {
+public class Main {
     public static void main(String[] args) {
         Person1 p1 = new Person1();
         Person2 p2 = new Person2();

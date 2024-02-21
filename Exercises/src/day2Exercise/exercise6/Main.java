@@ -1,6 +1,6 @@
-package Overriding;
+package day2Exercise.exercise6;
 
-public class Overriding {
+public class Main {
     public static void main(String[] args) {
         Add r1 = new Add();
         Multiple r2 = new Multiple();

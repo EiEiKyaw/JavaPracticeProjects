@@ -1,19 +1,17 @@
-package Inheritance.HInheritance;
+package day1Exercise.exercise2;
 
-public class HInheritance {
+public class MLInheritance {
     public static void main(String[] args) {
-        person1 p1 = new person1();
-        person2 p2 = new person2();
+        person2 greet = new person2();
 
-        p1.greeting();
-        p1.personGreeting1();
-        p2.greeting();
-        p2.personGreeting2();
-    }	
+        greet.greet();
+        greet.personGreeting1();
+        greet.personGreeting2();
+    }
 }
 
 class greeting {
-    public void greeting() {
+    public void greet() {
         System.out.println("Hello Everyone!!!");
     }
 }
@@ -24,7 +22,7 @@ class person1 extends greeting {
     }
 }
 
-class person2 extends greeting {
+class person2 extends person1 {
     public void personGreeting2 () {
         System.out.println("I'm John");
     }
