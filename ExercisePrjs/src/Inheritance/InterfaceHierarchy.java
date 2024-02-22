@@ -2,25 +2,26 @@ package Inheritance;
 
 public class InterfaceHierarchy {
 	public static void main(String[] args) {
-		MyAttitude a = new MyAttitude();
-		a.obey1();
-		a.obey2();
+		HerSonMe m = new HerSonMe();
+		m.give();
+		MySister ms = new MySister();
+		ms.give();
 	}
 }
 
-interface Rule1{
-	public void obey1();
+interface MyMom {
+	void give();
 }
 
-interface Rule2{
-	public void obey2();
+class HerSonMe implements MyMom{
+	public void give() {
+		System.out.println("Mom gives me a electric guitar.");
+	}
 }
 
-class MyAttitude implements Rule1, Rule2{
-	public void obey1() {
-		System.out.println("You are true if you are true.");
-	}
-	public void obey2() {
-		System.out.println("You are always true if you are false.");
+class MySister implements MyMom{
+	public void give() {
+		System.out.println("And mom also gives my little sister an angel's dress.");
 	}
 }
+

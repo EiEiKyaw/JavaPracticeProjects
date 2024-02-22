@@ -2,25 +2,28 @@ package Inheritance;
 
 public class InterfaceInheritance {
 	public static void main(String[] args) {
-		BDGift bd = new BDGift();
-		bd.gift1();
-		bd.gift2();
+		Son s = new Son();
+		s.myGrandmaGive();
+		s.myMomGive();
 	}
 }
 
-interface MomGaveMe{
-	void gift1();
+interface MyGrandma{
+	void myGrandmaGive();
 }
 
-class BDGift extends GrandmaGaveMe implements MomGaveMe{
-	public void gift1() {
-		System.out.println("My mom lets me choose for BD gift.So I choose the electric guitar.");
+interface Mother extends MyGrandma {
+	void myMomGive();
+}
+
+class Son implements Mother{
+	public void myGrandmaGive() {
+		System.out.println("My Grandma gives my mother a diamond necklace as a legacy.");
 	}
 	
-}
-
-class GrandmaGaveMe{
-	public void gift2() {
-		System.out.println("My grandma gave me a novel book.");
+	public void myMomGive() {
+		System.out.println("Later, my mother gives me to continue keeping.");
 	}
 }
+
+
