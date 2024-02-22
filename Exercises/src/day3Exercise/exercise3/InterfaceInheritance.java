@@ -28,16 +28,16 @@ public class InterfaceInheritance implements Car {
 	}
 }
 
-interface Engine{
-	public void move();
-	public void stop();
-}
-
 interface FrontWheel{
 	public void turnLeft();
 	public void turnRight();
 }
 
-interface Car extends Engine, FrontWheel{
+interface Engine extends FrontWheel{
+	public void move();
+	public void stop();
+}
+
+interface Car extends Engine{
 	public void alert();
 }
