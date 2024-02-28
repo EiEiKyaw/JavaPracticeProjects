@@ -10,6 +10,7 @@ public class DefaultCon {
     String options;
     String addOption = "add";
     String subtractOption = "subtract";
+    String exitOption = "exit";
     int a, b;
     Scanner scan = new Scanner(System.in);
     public DefaultCon() {
@@ -32,6 +33,11 @@ public class DefaultCon {
                     b = scan.nextInt();
 
                     System.out.println("Sum of a and b = " + (a + b));
+                    
+                    System.out.println("Choose one: add or subtract or Exit [e]?");
+                    Scanner scan2 = new Scanner(System.in);
+                    options = scan2.nextLine();
+                    
                 } else if (subtractOption.equals(options.toLowerCase())) {
                     System.out.println("Enter a: ");
                     a = scan.nextInt();
@@ -41,9 +47,18 @@ public class DefaultCon {
 
                     int subtract = (a > b) ? (a - b) : (b - a);
                     System.out.println("Subtraction of a and b = " + subtract);
-                } else {
-                    System.out.println("Keep developing!");
+                    
+                    System.out.println("Choose one: add or subtract");
+                    Scanner scan2 = new Scanner(System.in);
+                    options = scan2.nextLine();
+                    
+                } else if (exitOption.equals(options.toLowerCase())) {
+                	break;
                 }
+//                else {
+//                	System.out.println("Keep developing!");
+//                	break;
+//                }
             }while (true);
 
         }

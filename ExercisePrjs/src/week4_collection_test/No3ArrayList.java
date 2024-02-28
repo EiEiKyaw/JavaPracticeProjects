@@ -1,8 +1,8 @@
-package com.collection.test;
+package week4_collection_test;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ArrayListTest3 {
+public class No3ArrayList {
 	public static void main(String[] args) {
 		ArrayList<String> cars = new ArrayList<>(Arrays.asList("BMW", "Lamborghini", "Audi",
 													"McLeran", "Bugatti", "Tesla", "Ferrari"));

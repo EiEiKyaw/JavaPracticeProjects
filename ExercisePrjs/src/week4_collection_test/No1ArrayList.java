@@ -1,8 +1,8 @@
-package com.collection.test;
+package week4_collection_test;
 
 import java.util.ArrayList;
 
-public class ArrayListTest1 {
+public class No1ArrayList {
 	public static void main(String[] args) {
 		ArrayList<String> vocab = new ArrayList<>();
 		vocab.add("Apple");

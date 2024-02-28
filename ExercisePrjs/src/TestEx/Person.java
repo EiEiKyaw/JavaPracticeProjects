@@ -20,5 +20,6 @@ public class Person {
         else {
             System.out.printf("You added a %d years-old other gender named %s.\nHis birthdate is %s.\n\n", age, name, birthDate);
         }
+        scan.close();
     }
 }
